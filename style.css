@@ -1,0 +1,56 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #333;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #0073e6;
+    border-bottom-color: #0073e6;
+}
