@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        h1 {
+            margin: 0 0 10px;
+            font-size: 24px;
+        }
+        p {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+        .links a {
+            display: inline-block;
+            margin: 10px;
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Eröffnung: 26. November 1992, 18 Uhr</h1>
+        <p>Dauer der Ausstellung: 26. Nov. bis 31. Dez. 1992</p>
+        <p><strong>GALERIE BLEICH-ROSSI</strong></p>
+        <div class="links">
+            <a href="https://www.instagram.com/cargoworld/" target="_blank">Instagram</a>
+            <a href="https://118912.cargo.site/contact-form" target="_blank">Kontaktformular</a>
+        </div>
+    </div>
+</body>
+</html>
